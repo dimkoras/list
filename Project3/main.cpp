@@ -152,9 +152,6 @@ int main() {
 	lst.push_back(5);
 	lst.push_back(7);
 	lst.push_back(23);
-	lst.push_front(5);
-	lst.insert(2323, 1);
-	lst.removeAt(1);
 	for (int i = 0; i < lst.GetSize(); i++)
 	{
 		cout << lst[i] << endl;
